@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Consola proyecto</title>
+        <link rel="stylesheet" href="style.css">
+        <script></script>
+
+    </head>
+    <body>
+        <h1>Proyecto de Consola</h1>
+        <p>Abre la consola</p>
+        <p>se abre la consola y se escribe en ella</p>
+        <p> se inicia una variable y se escribe en la consola</p>
+        <p> se inicia una variable y se escribe en la consola</p>
+        <p>con .concat se junta el nombre y apellido</p>
+        <p>con .length se toma la longitud</p>
+        <p>con .replace se remplasa </p>
+        <p>con toLocaleLowerCase se cambia a minuscula</p>
+        <p>con toLocaleUpperCase se cambia a mayuscula</p>
+        <p>con math.max imprime en la consola el número maximo</p>
+        <p>con math.min se imprime el numero minimo</p>
+        <p>con math.sqrt saca la raíz cuadrada</p>
+        <p>con math.pow se imprime la potencia</p>
+        <script>
+            console.log("Hola bienvenido a la consola");
+            var primer_nombre="Sabrina";
+            console.log(primer_nombre);
+
+            var apellido="Serret";
+            console.log(apellido);
+
+             primer_nombre.concat(apellido);
+             var nombre_completo = primer_nombre.concat(apellido);
+             console.log(nombre_completo);
+
+             var nombre_completo_longitud=nombre_completo.length;
+             console.log(nombre_completo_longitud);
+
+             var nombre_uno="Giovanni Serret";
+             console.log(nombre_uno);
+             
+            var remplasar_nombre=nombre_uno.replace="Giovanni zarate";
+            console.log(remplasar_nombre);
+
+            var nombre_mayuscula="MARIANA";
+            var convertir_a_minuscula=nombre_mayuscula.toLocaleLowerCase();
+            console.log(convertir_a_minuscula);
+
+            var nombre_minusculas="donají";
+            var convertir_mayuscula=nombre_minusculas.toLocaleUpperCase();
+            console.log(convertir_mayuscula);
+
+            var raíz_cuadrada=Math.sqrt(10);
+            console.log(raíz_cuadrada);
+
+            var numero_max=Math.max(5,10);
+            console.log(numero_max);
+
+            var numero_minimo=Math.min(10,29);
+            console.log(numero_minimo);
+
+            var potencia_ejemp1=Math.pow(2,4);
+            console.log(potencia_ejemp1);
+
+            var potencia_ejemp2=Math.pow(5,10);
+            console.log(potencia_ejemp2);
+        </script>
+    </body>
+</html>
